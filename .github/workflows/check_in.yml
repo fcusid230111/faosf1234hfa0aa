@@ -2,9 +2,9 @@ name: 签到
 
 on: 
     schedule:
+    - cron: '11 18 * * *'
     - cron: '30 22 * * *'
     - cron: '45 0 * * *'
-    - cron: '07 18 * * *'
     #- cron: '25 7 * * *'
 
 jobs:
