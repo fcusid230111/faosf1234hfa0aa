@@ -2,8 +2,8 @@ name: 签到
 
 on: 
     schedule:
-    - cron: '0 * 18 * * ?'
-    - cron: '0 * 10 * * ?'
+    - cron: '0 * 18 * *'
+    - cron: '0 * 10 * *'
     
     #- cron: '30 22 * * *'
     #- cron: '45 0 * * *'
